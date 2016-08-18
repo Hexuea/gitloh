@@ -1,0 +1,54 @@
+我在oschina上先再建立几个plug 窗帘之类
+:
+你push上去
+
+
+:
+git@git.oschina.net:i3cloudcn/ROM-CS-PLUG-ONE.git   这个是plug
+:
+git@git.oschina.net:i3cloudcn/ROM-CS-CURTAIN.git
+天外来星 2016-08-15 09:24:37
+我们强烈建议所有的git仓库都有一个README, LICENSE, .gitignore文件
+
+Git入门？查看 帮助 , Visual Studio / TortoiseGit / Eclipse / Xcode 下如何连接本站, 如何导入项目
+
+
+
+
+简易的命令行入门教程:
+
+Git 全局设置:
+git config --global user.name "Hexuea"
+git config --global user.email "772526927@qq.com"
+
+
+创建 git 仓库:
+mkdir ROM-CS-CURTAIN
+cd ROM-CS-CURTAIN
+git init
+touch README.md
+git add README.md
+git commit -m "first commit"
+git remote add origin https://git.oschina.net/i3cloudcn/ROM-CS-CURTAIN.git
+git push -u origin master
+
+
+已有项目:
+cd existing_git_repo
+git remote add origin https://git.oschina.net/i3cloudcn/ROM-CS-CURTAIN.git
+git push -u origin master
+git pull
+git add .
+git commit -m "testA"
+git push origin maste
+
+
+
+git config --global credential.helper store  免密码
+
+13723424696糜正国
+
+
+
+
+
